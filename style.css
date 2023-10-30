@@ -7,6 +7,7 @@
 
 body {
     background-color: #3b3b3b;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
@@ -43,3 +44,39 @@ form{
     width: 100px;
     color: white;
 }
+
+/* caraousel */
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel img{
+    width: 25%;
+}
+
+
+/* carousel end */
+
+/* garis wp */
+
+.garis {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 45%;
+    color: white;
+    margin: auto;
+    height: 20px;
+
+}
+
+.garis p{
+    color: white;
+}
+
+/* garis wp end */
