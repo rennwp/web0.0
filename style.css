@@ -51,14 +51,24 @@ form{
 
 /* caraousel */
 
-.carousel {
-    margin-top: 50px;
+.bg-1 {
+    background-image: url(source/heroimg1.jpg);
 }
 
-.carousel img{
-    width: 25%;
+.bg-2 {
+    background-image: url(source/heroimg2.jpg);
 }
 
+.bg-3 {
+    background-image: url(source/heroimg3.jpg);
+}
+
+.carousel-image {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /* carousel end */
 
