@@ -42,6 +42,10 @@ form{
     margin-right: 10px;
 }
 
+.dropdown-menu {
+    background-color: #3b3b3b;
+}
+
 /* svg */
 
 .navbar svg {
