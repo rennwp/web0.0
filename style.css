@@ -42,6 +42,10 @@ form{
     margin-right: 10px;
 }
 
+.dropdown-menu {
+    background-color: #3b3b3b;
+}
+
 /* svg */
 
 .navbar svg {
@@ -72,54 +76,17 @@ form{
 
 /* carousel end */
 
-/* garis wp */
+/* promo */
 
-.garis {
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    margin-top: 50px;
+.promo {
+    margin-top: 40px;
 }
 
-hr {
-    width: 45%;
-    color: white;
-    margin: auto;
-    height: 20px;
-
-}
-
-.garis p{
+.promo h1{
     background-image: linear-gradient(to right, #ffcc00, yellow);
     color: transparent;
     -webkit-background-clip: text; /* Untuk dukungan browser berbasis WebKit (misalnya, Chrome, Safari) */
     background-clip: text;
 }
 
-/* garis wp end */
-
-/* isi about */
-
-.about {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-}
-
-.desc {
-    width: 70%;
-    margin: 0 50px 0 50px;
-}
-
-.desc-gambar {
-    width: 30%;
-    margin: 0 50px 0 50px;
-}
-
-.about img {
-    width: 300px;
-}
-
-/* isi about end */
+/* promo end */
